@@ -1,5 +1,5 @@
 import { FaMapLocationDot } from "react-icons/fa6";
-import map from "../assets/map.jpeg";
+import map from "../assets/map.webp";
 export const Location = () => {
   return (
     <section className="container my-20">

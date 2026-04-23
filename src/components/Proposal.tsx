@@ -1,6 +1,6 @@
-import piscina from "../assets/piscina.jpg";
-import river from "../assets/river.jpg";
-import sala from "../assets/sala.jpg";
+import piscina from "../assets/piscina.webp";
+import river from "../assets/river.webp";
+import sala from "../assets/sala.webp";
 export const Proposal = () => {
   return (
     <section>
