@@ -33,9 +33,9 @@ export const Banner = () => {
                 <span>Explora Experiencias</span>
               </Button>
 
-              <Button size={"xl"}>
+              {/* <Button size={"xl"}>
                 <span>Ver Galería</span>
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
