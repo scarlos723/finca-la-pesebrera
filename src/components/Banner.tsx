@@ -1,4 +1,4 @@
-import fotoBanner from "@/assets/foto-banner.webp";
+import fotoBanner from "@/assets/recent/banner.png";
 import { Toolbar } from "./Toolbar";
 import { Button } from "./ui/button";
 export const Banner = () => {
