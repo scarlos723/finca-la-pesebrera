@@ -20,7 +20,7 @@ export const FloatingButton = () => {
   const handleReserve = () => {
     if (!range.from) return;
     const fromStr = range.from.toLocaleDateString();
-    const toStr = range.to ? `al ${range.to.toLocaleDateString()}` : "";
+    const toStr = range.to ? ` al ${range.to.toLocaleDateString()}` : "";
     const msg = encodeURIComponent(
       `Hola, quiero reservar la fecha ${fromStr}${toStr} en Finca La Pesebrera!`,
     );
