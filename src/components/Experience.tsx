@@ -1,8 +1,8 @@
-import bbq from "@/assets/recent/bbq.png";
-import bed from "@/assets/recent/habitacion.png";
-import river2 from "@/assets/recent/accesorio.png";
-import swimingpool from "@/assets/recent/piscina2.png";
-import turkishbath from "@/assets/recent/turco.png";
+import bbq from "@/assets/recent/bbq.webp";
+import bed from "@/assets/recent/habitacion.webp";
+import river2 from "@/assets/recent/accesorio.webp";
+import swimingpool from "@/assets/recent/piscina2.webp";
+import turkishbath from "@/assets/recent/turco.webp";
 import { FaUsers } from "react-icons/fa6";
 import { GiThreeLeaves } from "react-icons/gi";
 import { GrSwim } from "react-icons/gr";
