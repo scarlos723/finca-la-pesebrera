@@ -19,6 +19,8 @@ export const Location = () => {
           </p>
           <a
             href="https://maps.app.goo.gl/zEvCcxyULbiDa6Ta8"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-6 mt-10 border p-2 border-white/20 cursor-pointer rounded-lg transition hover:scale-105 hover:shadow-md  hover:border-white/50 hover:bg-white/5 "
           >
             <div className="p-2 rounded-lg bg-white/20 ">
