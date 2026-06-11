@@ -1,4 +1,5 @@
 import { FaMapLocationDot } from "react-icons/fa6";
+
 import map from "../assets/map.webp";
 export const Location = () => {
   return (
@@ -12,24 +13,27 @@ export const Location = () => {
             Ubicada en el corazón de la naturaleza antioqueña
           </h2>
           <p className="mt-10 lg:max-w-2xl text-lgsm text-[#A9D293] text-pretty">
-            A solo 90 minutos de Medellín, un microclima perfecto nos rodea los
-            365 días del año. La Pesebrera es el punto de encuentro donde la
-            tradición se funde con el descanso
+            A solo 40 minutos de Medellín antes de San Jerónimo, un microclima
+            perfecto nos rodea los 365 días del año. La Pesebrera es el punto de
+            encuentro donde la tradición se funde con el descanso
           </p>
-          <div className="flex items-center gap-6 mt-10">
+          <a
+            href="https://maps.app.goo.gl/zEvCcxyULbiDa6Ta8"
+            className="flex items-center gap-6 mt-10 border p-2 border-white/20 cursor-pointer rounded-lg transition hover:scale-105 hover:shadow-md  hover:border-white/50 hover:bg-white/5 "
+          >
             <div className="p-2 rounded-lg bg-white/20 ">
               <FaMapLocationDot className="size-8 lg:size-10 text-[#A9D293]" />
             </div>
             <p className="text-white">San Jerónimo, Antioquia - Colombia</p>
-          </div>
+          </a>
         </div>
-        <div className="bg-[#446733] p-8 min-h-100 lg:p-20">
+        <div className="">
           <img
             className="w-full h-full object-cover rounded-3xl"
             src={map}
             alt="Mapa de la ubicación"
             style={{
-              maskImage: `radial-gradient(black 10%, transparent)`,
+              maskImage: `radial-gradient(black 40%, transparent)`,
             }}
           />
         </div>
