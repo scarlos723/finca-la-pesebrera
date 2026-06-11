@@ -29,9 +29,9 @@ export const Location = () => {
             <p className="text-white">San Jerónimo, Antioquia - Colombia</p>
           </a>
         </div>
-        <div className="">
+        <div className="flex items-center bg-[#EEECE0]">
           <img
-            className="w-full h-full object-cover rounded-3xl"
+            className="w-full object-cover rounded-3xl"
             src={map}
             alt="Mapa de la ubicación"
             style={{

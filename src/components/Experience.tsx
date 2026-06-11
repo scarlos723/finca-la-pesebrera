@@ -121,7 +121,7 @@ export const Experience = () => {
                 </div>
               </div>
               <div className="grid place-content-center">
-                <div className="border-5 border-white rounded-md size-40 overflow-hidden rotate-6 translate-y-2">
+                <div className="border-5 border-white rounded-md size-60 lg:size-40 overflow-hidden rotate-6 translate-y-2">
                   <img
                     className="w-full h-full object-cover"
                     src={turkishbath}
