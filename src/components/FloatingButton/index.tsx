@@ -1,3 +1,4 @@
+import { motion, useReducedMotion } from "motion/react";
 import { useState } from "react";
 import { BsChatRightTextFill } from "react-icons/bs";
 import { Calendar } from "../ui/calendar";
@@ -6,6 +7,7 @@ import styles from "./FloatingButton.module.css";
 
 export const FloatingButton = () => {
   const [open, setOpen] = useState(false);
+  const reduce = useReducedMotion();
 
   type DateRange = { from: Date | undefined; to?: Date | undefined };
   const [range, setRange] = useState<DateRange>({
@@ -31,7 +33,13 @@ export const FloatingButton = () => {
 
   return (
     <div className="sticky grid bottom-10 z-10">
-      <div className="ml-auto mr-10 mb-10">
+      <motion.div
+        className="ml-auto mr-10 mb-10"
+        initial={reduce ? false : { opacity: 0, scale: 0 }}
+        animate={reduce ? false : { opacity: 1, scale: 1 }}
+        transition={{ type: "spring", stiffness: 220, damping: 22, delay: 1.2 }}
+        style={{ transformOrigin: "bottom right" }}
+      >
         <Popover open={open} onOpenChange={setOpen}>
           <PopoverTrigger asChild>
             <button
@@ -89,7 +97,7 @@ export const FloatingButton = () => {
             </div>
           </PopoverContent>
         </Popover>
-      </div>
+      </motion.div>
     </div>
   );
 };
