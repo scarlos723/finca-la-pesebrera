@@ -16,10 +16,10 @@ export const Proposal = () => {
             Nuestra propuesta es una oda al Ruralismo Editorial. Espacios que
             respiran, materiales que cuentan historias y un entorno que invita a
             compartir momentos auténticos. En cada rincón, la esencia de lo
-            orgánico se entrelaza con la arquitectura moderna, creando un refugio
-            donde el tiempo se detiene y las preocupaciones se disuelven. La
-            Pesebrera no es solo un lugar, es una experiencia que celebra la
-            belleza de lo natural en su forma más pura.
+            orgánico se entrelaza con la arquitectura moderna, creando un
+            refugio donde el tiempo se detiene y las preocupaciones se
+            disuelven. La Pesebrera no es solo un lugar, es una experiencia que
+            celebra la belleza de lo natural en su forma más pura.
           </p>
         </BlurFade>
       </div>
@@ -65,7 +65,7 @@ const Article = ({
   const reduce = useReducedMotion();
   return (
     <article
-      className={`overflow-hidden min-h-120 rounded-lg shadow-lg transition-[background-size] duration-700 ease-out ${
+      className={`grid overflow-hidden min-h-120 rounded-lg shadow-lg transition-[background-size] duration-700 ease-out ${
         reduce ? "" : "hover:[background-size:110%]"
       } ${className || ""}`}
       style={{
@@ -76,7 +76,6 @@ const Article = ({
       <div className="grid w-full h-full bg-linear-to-t from-black/90 via-transparent to-transparent">
         <div className="mt-auto text-white p-5">
           <div className="font-bold text-2xl">{title}</div>
-
           <p>{description}</p>
         </div>
       </div>
