@@ -1,4 +1,4 @@
-import { FaInstagram, FaWhatsapp } from "react-icons/fa6";
+import { FaInstagram, FaWhatsapp, FaMapLocationDot } from "react-icons/fa6";
 
 export const Footer = () => {
   const today = new Date().getFullYear();
@@ -11,6 +11,15 @@ export const Footer = () => {
             <p className="font-bold text-lg text-gray-900 mb-2">La Pesebrera</p>
             <p className="text-gray-600 text-sm mb-1">San Jerónimo, Antioquia</p>
             <p className="text-gray-500 text-xs">A 40 minutos de Medellín</p>
+            <a
+              href="https://maps.app.goo.gl/zEvCcxyULbiDa6Ta8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 transition font-medium mt-3 text-sm"
+            >
+              <FaMapLocationDot className="size-4" />
+              <span>Ver ubicación</span>
+            </a>
           </div>
 
           {/* Contacto */}
