@@ -41,9 +41,9 @@ export const Experience = () => {
                     <p className="uppercase font-bold text-[#A9D293]">
                       Disfruta de la naturaleza
                     </p>
-                    <p className="font-bold text-white text-4xl">
+                    <h3 className="font-bold text-white text-4xl">
                       Acceso directo al río
-                    </p>
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export const Experience = () => {
                     <MdOutlineOutdoorGrill className="size-5 lg:size-10" />
                   </div>
                   <div>
-                    <p className="font-bold text-2xl">BBQ Ahumador</p>
+                    <h3 className="font-bold text-2xl">BBQ Ahumador</h3>
                   </div>
                 </div>
               </div>
@@ -96,7 +96,7 @@ export const Experience = () => {
                   </div>
                 </div>
                 <div className="">
-                  <p className="font-bold text-2xl">Billares Privados</p>
+                  <h3 className="font-bold text-2xl">Billares Privados</h3>
                   <p className="text-sm mt-2">
                     Disfruta de una clásica recreación con amigos en nuestras
                     mesas de billar.
@@ -118,9 +118,9 @@ export const Experience = () => {
                     <GrSwim className="size-5 lg:size-10 text-white m-3" />
                   </div>
                   <div className="absolute bottom-10 text-center px-4">
-                    <p className=" text-white text-xl font-bold uppercase">
+                    <h3 className=" text-white text-xl font-bold uppercase">
                       Piscinas Privadas
-                    </p>
+                    </h3>
                   </div>
                 </div>
               </div>
@@ -135,7 +135,7 @@ export const Experience = () => {
                     <p className="font-semibold uppercase text-xl">Bienestar</p>
                   </div>
                   <div className="text-[#2D4F1E] mt-auto">
-                    <p className="text-4xl font-bold mb-2">Baño Turco</p>
+                    <h3 className="text-4xl font-bold mb-2">Baño Turco</h3>
                     <p>
                       Un refugio de vapor para relajarte profundamente y renovar
                       tu energía. Purifica cuerpo y mente en un ambiente diseñado
@@ -164,9 +164,9 @@ export const Experience = () => {
                 }}
               >
                 <div className="grid p-8 lg:p-4 xl:p-8 h-full w-full bg-linear-to-t from-black/80 via-transparent to-transparent">
-                  <p className="text-xl font-bold text-white mt-auto">
+                  <h3 className="text-xl font-bold text-white mt-auto">
                     Cómodas Habitaciones
-                  </p>
+                  </h3>
                 </div>
               </div>
             </div>
